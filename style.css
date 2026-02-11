@@ -41,14 +41,6 @@ body {
     min-height: 100vh;
 }
 
-html {
-    background-image: url("/img/bgsvg/bg-land1.svg");
-    background-position: center;
-    background-repeat: repeat;
-    background-attachment: scroll; /* or just remove this line entirely */
-        scroll-behavior: smooth;
-}
-
 img {
     max-width: 100%;
 }
@@ -1286,10 +1278,11 @@ header {
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(70, 72, 59, 0.1);
     transition: all 0.3s ease;
-    border: 1px solid rgba(205, 176, 40, 0.2); /* Subtle gold border */
+    border: 10px solid var(--background2); /* Subtle gold border */
     font-family: var(--font2, "Cinzel"), serif;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    color: var(--text-on-primary);
 }
 
 .product-card:hover {
@@ -1618,13 +1611,13 @@ header {
 
 .map-description h4 {
     font-size: 1.2rem;
-    color: var(--primary-color);
+    color: var(--text-on-primary);
     margin-bottom: 5px;
     font-weight: 600;
 }
 
 .map-description p {
-    color: var(--text-light);
+    color: var(--text-on-primary);
     font-size: 0.95rem;
     line-height: 1.4;
 }
@@ -1680,6 +1673,7 @@ header {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    max-width: 100%;
 }
 
 .shopcon .section-title {
@@ -1704,9 +1698,12 @@ header {
     width: 100%;
     font-weight: normal;
     background-color: var(--background2);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding: 1vw;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 0.05vw;
+    padding-right: 40px;
+    padding-left: 100px;
+    transform: translateX(-10%);
 }
 
 
@@ -2462,7 +2459,7 @@ footer .container {
 /* Copyright Section */
 .copyright {
     padding-top: 20px;
-    color: #aaa;
+    color: var(--text-on-primary);
     font-size: 0.9rem;
     position: relative;
     z-index: 2;
@@ -2572,5 +2569,4 @@ footer .container {
 
 .hidden{
     opacity: 0;
-
 }
