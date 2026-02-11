@@ -33,7 +33,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-image: url("/img/bgsvg/bg-land1.svg");
+    background-image: url("./img/bgsvg/bg-land1.svg");
     background-position: center;
     background-repeat: repeat;
     background-attachment: fixed; 
@@ -2572,4 +2572,5 @@ footer .container {
 
 .hidden{
     opacity: 0;
+
 }
