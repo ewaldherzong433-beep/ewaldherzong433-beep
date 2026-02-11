@@ -5,7 +5,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1700000.0,
         "images": [
-            "/img/Accessories/1 Bags - 1.700k .webp"
+            "./img/Accessories/1 Bags - 1.700k .webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -16,7 +16,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Accessories/10 Bags - 999k.webp"
+            "./img/Accessories/10 Bags - 999k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -27,7 +27,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Accessories/11 Bags - 999k.webp"
+            "./img/Accessories/11 Bags - 999k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -38,7 +38,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Accessories/12 Bags - 999k.webp"
+            "./img/Accessories/12 Bags - 999k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -49,7 +49,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2200000.0,
         "images": [
-            "/img/Accessories/13 Bags - 2.200k.webp"
+            "./img/Accessories/13 Bags - 2.200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -60,7 +60,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2200000.0,
         "images": [
-            "/img/Accessories/14 Bags - 2.200k.webp"
+            "./img/Accessories/14 Bags - 2.200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -71,7 +71,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2200000.0,
         "images": [
-            "/img/Accessories/15 Bags - 2.200k.webp"
+            "./img/Accessories/15 Bags - 2.200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -82,7 +82,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2200000.0,
         "images": [
-            "/img/Accessories/16 Bags - 2.200k.webp"
+            "./img/Accessories/16 Bags - 2.200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -93,7 +93,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2200000.0,
         "images": [
-            "/img/Accessories/17 Bags - 2.200k.webp"
+            "./img/Accessories/17 Bags - 2.200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -104,7 +104,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2200000.0,
         "images": [
-            "/img/Accessories/18 Bags - 2.200k.webp"
+            "./img/Accessories/18 Bags - 2.200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -115,7 +115,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1500000.0,
         "images": [
-            "/img/Accessories/19 Bags - 1.500k.webp"
+            "./img/Accessories/19 Bags - 1.500k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -126,7 +126,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Accessories/2 Bags  - 1.000k.webp"
+            "./img/Accessories/2 Bags  - 1.000k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -137,7 +137,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Accessories/20 Bags - 1.200k.webp"
+            "./img/Accessories/20 Bags - 1.200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -148,7 +148,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1500000.0,
         "images": [
-            "/img/Accessories/21 Bags - 1.500k.webp"
+            "./img/Accessories/21 Bags - 1.500k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -159,7 +159,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2700000.0,
         "images": [
-            "/img/Accessories/22 Bags - 2.700k.webp"
+            "./img/Accessories/22 Bags - 2.700k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -170,7 +170,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3500000.0,
         "images": [
-            "/img/Accessories/23 Bags  - 3.500k.webp"
+            "./img/Accessories/23 Bags  - 3.500k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -181,7 +181,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2000000.0,
         "images": [
-            "/img/Accessories/24 Bags  - 2.000k.webp"
+            "./img/Accessories/24 Bags  - 2.000k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -192,7 +192,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2500000.0,
         "images": [
-            "/img/Accessories/25 Bags - 2.500k .webp"
+            "./img/Accessories/25 Bags - 2.500k .webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -203,7 +203,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2500000.0,
         "images": [
-            "/img/Accessories/26 Bags -  2.500k.webp"
+            "./img/Accessories/26 Bags -  2.500k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -214,7 +214,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/27 Hairgrib - 269k.webp"
+            "./img/Accessories/27 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -225,7 +225,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/28 Hairgrib - 269k.webp"
+            "./img/Accessories/28 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -236,7 +236,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/29 Hairgrib - 269k.webp"
+            "./img/Accessories/29 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -247,7 +247,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Accessories/3 Bags  - 1.000k.webp"
+            "./img/Accessories/3 Bags  - 1.000k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -258,7 +258,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/30 Hairgrib - 269k.webp"
+            "./img/Accessories/30 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -269,7 +269,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/31 Hairgrib - 269k.webp"
+            "./img/Accessories/31 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -280,7 +280,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/32 Hairgrib - 269k.webp"
+            "./img/Accessories/32 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -291,7 +291,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/33 Hairgrib - 269k.webp"
+            "./img/Accessories/33 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -302,7 +302,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/34 Hairgrib - 269k.webp"
+            "./img/Accessories/34 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -313,7 +313,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 269000.0,
         "images": [
-            "/img/Accessories/35 Hairgrib - 269k.webp"
+            "./img/Accessories/35 Hairgrib - 269k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -324,7 +324,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1989000.0,
         "images": [
-            "/img/Accessories/36 Sunglasses - 1.989k.webp"
+            "./img/Accessories/36 Sunglasses - 1.989k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -335,7 +335,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1700000.0,
         "images": [
-            "/img/Accessories/37 Sunglasses - 1.700k.webp"
+            "./img/Accessories/37 Sunglasses - 1.700k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -346,7 +346,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3100000.0,
         "images": [
-            "/img/Accessories/38 Sunglasses - 3.100k.webp"
+            "./img/Accessories/38 Sunglasses - 3.100k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -357,7 +357,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3100000.0,
         "images": [
-            "/img/Accessories/39 Sunglasses - 3.100k.webp"
+            "./img/Accessories/39 Sunglasses - 3.100k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -368,7 +368,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Accessories/4 Bags  - 1.000k.webp"
+            "./img/Accessories/4 Bags  - 1.000k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -379,7 +379,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3100000.0,
         "images": [
-            "/img/Accessories/40 Sunglasses - 3.100k.webp"
+            "./img/Accessories/40 Sunglasses - 3.100k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -390,7 +390,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3100000.0,
         "images": [
-            "/img/Accessories/41 Sunglasses - 3.100k.webp"
+            "./img/Accessories/41 Sunglasses - 3.100k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -401,7 +401,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3100000.0,
         "images": [
-            "/img/Accessories/42 Sunglasses - 3.100k.webp"
+            "./img/Accessories/42 Sunglasses - 3.100k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -412,7 +412,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3100000.0,
         "images": [
-            "/img/Accessories/43 Sunglasses - 3.100k.webp"
+            "./img/Accessories/43 Sunglasses - 3.100k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -423,7 +423,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3100000.0,
         "images": [
-            "/img/Accessories/44 Sunglasses - 3.100k.webp"
+            "./img/Accessories/44 Sunglasses - 3.100k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -434,7 +434,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 3100000.0,
         "images": [
-            "/img/Accessories/45 Sunglasses - 3.100k.webp"
+            "./img/Accessories/45 Sunglasses - 3.100k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -445,7 +445,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 110000.0,
         "images": [
-            "/img/Accessories/46 Shock  - 110k_pcs 450k_box .webp"
+            "./img/Accessories/46 Shock  - 110k_pcs 450k_box .webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -456,7 +456,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 110000.0,
         "images": [
-            "/img/Accessories/47 Shock  - 110k_pcs 450k_box .webp"
+            "./img/Accessories/47 Shock  - 110k_pcs 450k_box .webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -467,7 +467,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 110000.0,
         "images": [
-            "/img/Accessories/48 Shock  - 110k_pcs 450k_box .webp"
+            "./img/Accessories/48 Shock  - 110k_pcs 450k_box .webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -478,7 +478,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 200000.0,
         "images": [
-            "/img/Accessories/49 Shock  - 200k.webp"
+            "./img/Accessories/49 Shock  - 200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -489,7 +489,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2500000.0,
         "images": [
-            "/img/Accessories/5 Bags  - 2.500k.webp"
+            "./img/Accessories/5 Bags  - 2.500k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -500,7 +500,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 200000.0,
         "images": [
-            "/img/Accessories/50 Shock  - 200k.webp"
+            "./img/Accessories/50 Shock  - 200k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -511,7 +511,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 369000.0,
         "images": [
-            "/img/Accessories/51 Shock  - 369k.webp"
+            "./img/Accessories/51 Shock  - 369k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -522,7 +522,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 369000.0,
         "images": [
-            "/img/Accessories/52 Shock  - 369k.webp"
+            "./img/Accessories/52 Shock  - 369k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -533,7 +533,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 130000.0,
         "images": [
-            "/img/Accessories/53 Shock  - 130k.webp"
+            "./img/Accessories/53 Shock  - 130k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -544,7 +544,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 130000.0,
         "images": [
-            "/img/Accessories/54 Shock  - 130k.webp"
+            "./img/Accessories/54 Shock  - 130k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -555,7 +555,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 130000.0,
         "images": [
-            "/img/Accessories/55 Shock  - 130k.webp"
+            "./img/Accessories/55 Shock  - 130k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -566,7 +566,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2500000.0,
         "images": [
-            "/img/Accessories/6 Bags  - 2.500k.webp"
+            "./img/Accessories/6 Bags  - 2.500k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -577,7 +577,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2500000.0,
         "images": [
-            "/img/Accessories/7 Bags  - 2.500k.webp"
+            "./img/Accessories/7 Bags  - 2.500k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -588,7 +588,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2500000.0,
         "images": [
-            "/img/Accessories/8 Bags  - 2.500k.webp"
+            "./img/Accessories/8 Bags  - 2.500k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -599,7 +599,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Accessories/9 Bags - 999k.webp"
+            "./img/Accessories/9 Bags - 999k.webp"
         ],
         "category": "Accessories",
         "discount": 0
@@ -610,7 +610,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 550000.0,
         "images": [
-            "/img/Caps & Hats/1 Caps - 550k.webp"
+            "./img/Caps & Hats/1 Caps - 550k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -621,7 +621,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 500000.0,
         "images": [
-            "/img/Caps & Hats/10 Caps - 500k.webp"
+            "./img/Caps & Hats/10 Caps - 500k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -632,7 +632,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 500000.0,
         "images": [
-            "/img/Caps & Hats/11 Caps - 500k.webp"
+            "./img/Caps & Hats/11 Caps - 500k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -643,7 +643,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 400000.0,
         "images": [
-            "/img/Caps & Hats/12 Visor  - 400k.webp"
+            "./img/Caps & Hats/12 Visor  - 400k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -654,7 +654,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 400000.0,
         "images": [
-            "/img/Caps & Hats/13 Visor  - 400k.webp"
+            "./img/Caps & Hats/13 Visor  - 400k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -665,7 +665,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 400000.0,
         "images": [
-            "/img/Caps & Hats/14 Visor  - 400k.webp"
+            "./img/Caps & Hats/14 Visor  - 400k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -676,7 +676,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 550000.0,
         "images": [
-            "/img/Caps & Hats/15 Visor  - 550k.webp"
+            "./img/Caps & Hats/15 Visor  - 550k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -687,7 +687,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 550000.0,
         "images": [
-            "/img/Caps & Hats/16 Visor  - 550k.webp"
+            "./img/Caps & Hats/16 Visor  - 550k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -698,7 +698,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 550000.0,
         "images": [
-            "/img/Caps & Hats/17 Visor  - 550k.webp"
+            "./img/Caps & Hats/17 Visor  - 550k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -709,7 +709,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 550000.0,
         "images": [
-            "/img/Caps & Hats/18 Hats  - 550k.webp"
+            "./img/Caps & Hats/18 Hats  - 550k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -720,7 +720,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 900000.0,
         "images": [
-            "/img/Caps & Hats/19 Hats - 900k.webp"
+            "./img/Caps & Hats/19 Hats - 900k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -731,7 +731,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 550000.0,
         "images": [
-            "/img/Caps & Hats/2 Caps - 550k.webp"
+            "./img/Caps & Hats/2 Caps - 550k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -742,7 +742,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Caps & Hats/20 Hats  - 1.100k.webp"
+            "./img/Caps & Hats/20 Hats  - 1.100k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -753,7 +753,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Caps & Hats/21 Hats  - 1.100k.webp"
+            "./img/Caps & Hats/21 Hats  - 1.100k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -764,7 +764,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Caps & Hats/22 Hats  - 1.100k.webp"
+            "./img/Caps & Hats/22 Hats  - 1.100k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -775,7 +775,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Caps & Hats/23 Hats  - 1.100k.webp"
+            "./img/Caps & Hats/23 Hats  - 1.100k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -786,7 +786,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Caps & Hats/24 Hats  - 1.100k.webp"
+            "./img/Caps & Hats/24 Hats  - 1.100k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -797,7 +797,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Caps & Hats/25 Hats  - 999k.webp"
+            "./img/Caps & Hats/25 Hats  - 999k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -808,7 +808,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Caps & Hats/26 Hats  - 1.100k.webp"
+            "./img/Caps & Hats/26 Hats  - 1.100k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -819,7 +819,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Caps & Hats/27 Hats  - 999k.webp"
+            "./img/Caps & Hats/27 Hats  - 999k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -830,7 +830,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Caps & Hats/28 Hats  - 999k.webp"
+            "./img/Caps & Hats/28 Hats  - 999k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -841,7 +841,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 0.0,
         "images": [
-            "/img/Caps & Hats/29 Hats - 000k.webp"
+            "./img/Caps & Hats/29 Hats - 000k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -852,7 +852,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 400000.0,
         "images": [
-            "/img/Caps & Hats/3 Caps - 400k.webp"
+            "./img/Caps & Hats/3 Caps - 400k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -863,7 +863,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 0.0,
         "images": [
-            "/img/Caps & Hats/30 Hats - 000k.webp"
+            "./img/Caps & Hats/30 Hats - 000k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -874,7 +874,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 500000.0,
         "images": [
-            "/img/Caps & Hats/4 Caps - 500k.webp"
+            "./img/Caps & Hats/4 Caps - 500k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -885,7 +885,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 500000.0,
         "images": [
-            "/img/Caps & Hats/5 Caps - 500k.webp"
+            "./img/Caps & Hats/5 Caps - 500k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -896,7 +896,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 500000.0,
         "images": [
-            "/img/Caps & Hats/6 Caps - 500k.webp"
+            "./img/Caps & Hats/6 Caps - 500k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -907,7 +907,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 500000.0,
         "images": [
-            "/img/Caps & Hats/7 Caps - 500k.webp"
+            "./img/Caps & Hats/7 Caps - 500k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -918,7 +918,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 500000.0,
         "images": [
-            "/img/Caps & Hats/8 Caps - 500k.webp"
+            "./img/Caps & Hats/8 Caps - 500k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -929,7 +929,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 500000.0,
         "images": [
-            "/img/Caps & Hats/9 Caps - 500k.webp"
+            "./img/Caps & Hats/9 Caps - 500k.webp"
         ],
         "category": "Caps & Hats",
         "discount": 0
@@ -940,7 +940,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Men Sportswear/1 Top Sport Men - 1.100k.webp"
+            "./img/Men Sportswear/1 Top Sport Men - 1.100k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -951,7 +951,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Men Sportswear/10 Short Sport Men - 1.000k.webp"
+            "./img/Men Sportswear/10 Short Sport Men - 1.000k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -962,7 +962,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Men Sportswear/11 Short Sport Men - 1.000k.webp"
+            "./img/Men Sportswear/11 Short Sport Men - 1.000k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -973,7 +973,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Men Sportswear/12 Short Sport Men - 1.000k .webp"
+            "./img/Men Sportswear/12 Short Sport Men - 1.000k .webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -984,7 +984,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 799000.0,
         "images": [
-            "/img/Men Sportswear/13 Short Sport Men - 799k .webp"
+            "./img/Men Sportswear/13 Short Sport Men - 799k .webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -995,7 +995,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 620000.0,
         "images": [
-            "/img/Men Sportswear/14 Short Sport Men - 620k .jpg.webp"
+            "./img/Men Sportswear/14 Short Sport Men - 620k .jpg.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1006,7 +1006,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 750000.0,
         "images": [
-            "/img/Men Sportswear/15 Short Sport Men - 750k .webp"
+            "./img/Men Sportswear/15 Short Sport Men - 750k .webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1017,7 +1017,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Men Sportswear/2 Top Sport Men - 1.100k.webp"
+            "./img/Men Sportswear/2 Top Sport Men - 1.100k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1028,7 +1028,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Men Sportswear/3 Top Sport Men - 1.100k.webp"
+            "./img/Men Sportswear/3 Top Sport Men - 1.100k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1039,7 +1039,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 728000.0,
         "images": [
-            "/img/Men Sportswear/4 One Set Sport Men - 728k .webp"
+            "./img/Men Sportswear/4 One Set Sport Men - 728k .webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1050,7 +1050,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 899000.0,
         "images": [
-            "/img/Men Sportswear/5 T-Shirt Sport Men - 899k.webp"
+            "./img/Men Sportswear/5 T-Shirt Sport Men - 899k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1061,7 +1061,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 899000.0,
         "images": [
-            "/img/Men Sportswear/6 T-Shirt Sport Men - 899k.webp"
+            "./img/Men Sportswear/6 T-Shirt Sport Men - 899k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1072,7 +1072,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 899000.0,
         "images": [
-            "/img/Men Sportswear/7 T-Shirt Sport Men - 899k.webp"
+            "./img/Men Sportswear/7 T-Shirt Sport Men - 899k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1083,7 +1083,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 988000.0,
         "images": [
-            "/img/Men Sportswear/8 T-Shirt Sport Men - 988k.webp"
+            "./img/Men Sportswear/8 T-Shirt Sport Men - 988k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1094,7 +1094,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Men Sportswear/9 Short Sport Men - 1.000k.webp"
+            "./img/Men Sportswear/9 Short Sport Men - 1.000k.webp"
         ],
         "category": "Men Sportswear",
         "discount": 0
@@ -1105,7 +1105,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 825000.0,
         "images": [
-            "/img/Women casualwear/1 Top Casual Women - 825k.webp"
+            "./img/Women casualwear/1 Top Casual Women - 825k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1116,7 +1116,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1045000.0,
         "images": [
-            "/img/Women casualwear/10 T-Shirt Casual Women - 1.045k.webp"
+            "./img/Women casualwear/10 T-Shirt Casual Women - 1.045k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1127,7 +1127,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Women casualwear/11 T-Shirt Casual Women - 1.000k.webp"
+            "./img/Women casualwear/11 T-Shirt Casual Women - 1.000k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1138,7 +1138,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2099000.0,
         "images": [
-            "/img/Women casualwear/12 One Set Casual Women - 2.099k.webp"
+            "./img/Women casualwear/12 One Set Casual Women - 2.099k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1149,7 +1149,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2099000.0,
         "images": [
-            "/img/Women casualwear/13 One Set Casual Women - 2.099k.webp"
+            "./img/Women casualwear/13 One Set Casual Women - 2.099k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1160,7 +1160,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2099000.0,
         "images": [
-            "/img/Women casualwear/14 One Set Casual Women - 2.099k.webp"
+            "./img/Women casualwear/14 One Set Casual Women - 2.099k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1171,7 +1171,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2099000.0,
         "images": [
-            "/img/Women casualwear/15 One Set Casual Women - 2.099k.webp"
+            "./img/Women casualwear/15 One Set Casual Women - 2.099k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1182,7 +1182,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2099000.0,
         "images": [
-            "/img/Women casualwear/16 One Set Casual Women - 2.099k.webp"
+            "./img/Women casualwear/16 One Set Casual Women - 2.099k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1193,7 +1193,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 825000.0,
         "images": [
-            "/img/Women casualwear/2 Top Casual Women - 825k.webp"
+            "./img/Women casualwear/2 Top Casual Women - 825k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1204,7 +1204,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 825000.0,
         "images": [
-            "/img/Women casualwear/3 Top Casual Women - 825k.webp"
+            "./img/Women casualwear/3 Top Casual Women - 825k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1215,7 +1215,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1045000.0,
         "images": [
-            "/img/Women casualwear/4 Top Casual Women - 1.045k.webp"
+            "./img/Women casualwear/4 Top Casual Women - 1.045k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1226,7 +1226,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1045000.0,
         "images": [
-            "/img/Women casualwear/5 Top Casual Women - 1.045k.webp"
+            "./img/Women casualwear/5 Top Casual Women - 1.045k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1237,7 +1237,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1045000.0,
         "images": [
-            "/img/Women casualwear/6 Top Casual Women - 1.045k.webp"
+            "./img/Women casualwear/6 Top Casual Women - 1.045k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1248,7 +1248,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1045000.0,
         "images": [
-            "/img/Women casualwear/7 Top Casual Women - 1.045k.webp"
+            "./img/Women casualwear/7 Top Casual Women - 1.045k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1259,7 +1259,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1045000.0,
         "images": [
-            "/img/Women casualwear/8 Top Casual Women - 1.045k.webp"
+            "./img/Women casualwear/8 Top Casual Women - 1.045k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1270,7 +1270,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1045000.0,
         "images": [
-            "/img/Women casualwear/9 Top Casual Women - 1.045k.webp"
+            "./img/Women casualwear/9 Top Casual Women - 1.045k.webp"
         ],
         "category": "Women casualwear",
         "discount": 0
@@ -1281,7 +1281,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 750000.0,
         "images": [
-            "/img/Women sportwear/1 Top Sport Women - 750k.webp"
+            "./img/Women sportwear/1 Top Sport Women - 750k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1292,7 +1292,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 660000.0,
         "images": [
-            "/img/Women sportwear/10 Tanktop Sport Women - 660k.webp"
+            "./img/Women sportwear/10 Tanktop Sport Women - 660k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1303,7 +1303,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 660000.0,
         "images": [
-            "/img/Women sportwear/100 Short Sport Women - 660k.webp"
+            "./img/Women sportwear/100 Short Sport Women - 660k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1314,7 +1314,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 660000.0,
         "images": [
-            "/img/Women sportwear/101 Short Sport Women - 660k.webp"
+            "./img/Women sportwear/101 Short Sport Women - 660k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1325,7 +1325,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 800000.0,
         "images": [
-            "/img/Women sportwear/102 Skirt Sport Women - 800k.webp"
+            "./img/Women sportwear/102 Skirt Sport Women - 800k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1336,7 +1336,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 800000.0,
         "images": [
-            "/img/Women sportwear/103 Skirt Sport Women - 800k.webp"
+            "./img/Women sportwear/103 Skirt Sport Women - 800k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1347,7 +1347,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 800000.0,
         "images": [
-            "/img/Women sportwear/104 Skirt Sport Women - 800k.webp"
+            "./img/Women sportwear/104 Skirt Sport Women - 800k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1358,7 +1358,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 689000.0,
         "images": [
-            "/img/Women sportwear/105 Skirt Sport Women - 689k.webp"
+            "./img/Women sportwear/105 Skirt Sport Women - 689k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1369,7 +1369,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 689000.0,
         "images": [
-            "/img/Women sportwear/106 Skirt Sport Women - 689k.webp"
+            "./img/Women sportwear/106 Skirt Sport Women - 689k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1380,7 +1380,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 689000.0,
         "images": [
-            "/img/Women sportwear/107 Skirt Sport Women - 689k.webp"
+            "./img/Women sportwear/107 Skirt Sport Women - 689k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1391,7 +1391,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 689000.0,
         "images": [
-            "/img/Women sportwear/108 Skirt Sport Women - 689k.webp"
+            "./img/Women sportwear/108 Skirt Sport Women - 689k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1402,7 +1402,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 770000.0,
         "images": [
-            "/img/Women sportwear/109 Skirt Sport Women - 770k.webp"
+            "./img/Women sportwear/109 Skirt Sport Women - 770k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1413,7 +1413,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 760000.0,
         "images": [
-            "/img/Women sportwear/11 Top Sport Women - 760k.webp"
+            "./img/Women sportwear/11 Top Sport Women - 760k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1424,7 +1424,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 660000.0,
         "images": [
-            "/img/Women sportwear/110 Skirt Sport Women - 660k.webp"
+            "./img/Women sportwear/110 Skirt Sport Women - 660k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1435,7 +1435,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1999000.0,
         "images": [
-            "/img/Women sportwear/111 Longpants Sport Women - 1.999k.webp"
+            "./img/Women sportwear/111 Longpants Sport Women - 1.999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1446,7 +1446,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 900000.0,
         "images": [
-            "/img/Women sportwear/112 Longpants Sport Women - 900k.webp"
+            "./img/Women sportwear/112 Longpants Sport Women - 900k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1457,7 +1457,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Women sportwear/113 Longpants Sport Women - 999k.webp"
+            "./img/Women sportwear/113 Longpants Sport Women - 999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1468,7 +1468,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Women sportwear/114 Longpants Sport Women - 999k.webp"
+            "./img/Women sportwear/114 Longpants Sport Women - 999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1479,7 +1479,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 900000.0,
         "images": [
-            "/img/Women sportwear/115 Longpants Sport Women - 900k.webp"
+            "./img/Women sportwear/115 Longpants Sport Women - 900k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1490,7 +1490,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 900000.0,
         "images": [
-            "/img/Women sportwear/116 Longpants Sport Women - 900k.webp"
+            "./img/Women sportwear/116 Longpants Sport Women - 900k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1501,7 +1501,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 700000.0,
         "images": [
-            "/img/Women sportwear/117 Longpants Sport Women - 700k.webp"
+            "./img/Women sportwear/117 Longpants Sport Women - 700k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1512,7 +1512,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 760000.0,
         "images": [
-            "/img/Women sportwear/12 Top Sport Women - 760k.webp"
+            "./img/Women sportwear/12 Top Sport Women - 760k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1523,7 +1523,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 760000.0,
         "images": [
-            "/img/Women sportwear/13 Top Sport Women - 760k.webp"
+            "./img/Women sportwear/13 Top Sport Women - 760k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1534,7 +1534,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 760000.0,
         "images": [
-            "/img/Women sportwear/14 Top Sport Women - 760k.webp"
+            "./img/Women sportwear/14 Top Sport Women - 760k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1545,7 +1545,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/15 Top Sport Women - 780k.webp"
+            "./img/Women sportwear/15 Top Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1556,7 +1556,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/16 Top Sport Women - 780k.webp"
+            "./img/Women sportwear/16 Top Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1567,7 +1567,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/17 Top Sport Women - 780k.webp"
+            "./img/Women sportwear/17 Top Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1578,7 +1578,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/18 Top Sport Women - 780k.webp"
+            "./img/Women sportwear/18 Top Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1589,7 +1589,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 770000.0,
         "images": [
-            "/img/Women sportwear/19 Top Sport Women - 770k.webp"
+            "./img/Women sportwear/19 Top Sport Women - 770k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1600,7 +1600,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 750000.0,
         "images": [
-            "/img/Women sportwear/2 Top Sport Women - 750k.webp"
+            "./img/Women sportwear/2 Top Sport Women - 750k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1611,7 +1611,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 770000.0,
         "images": [
-            "/img/Women sportwear/20 Top Sport Women - 770k.webp"
+            "./img/Women sportwear/20 Top Sport Women - 770k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1622,7 +1622,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 800000.0,
         "images": [
-            "/img/Women sportwear/21 T-Shirt Sport Women - 800k.webp"
+            "./img/Women sportwear/21 T-Shirt Sport Women - 800k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1633,7 +1633,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 800000.0,
         "images": [
-            "/img/Women sportwear/22 T-Shirt Sport Women - 800k.webp"
+            "./img/Women sportwear/22 T-Shirt Sport Women - 800k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1644,7 +1644,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 850000.0,
         "images": [
-            "/img/Women sportwear/23 Sport Jacket Women - 850k.webp"
+            "./img/Women sportwear/23 Sport Jacket Women - 850k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1655,7 +1655,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 850000.0,
         "images": [
-            "/img/Women sportwear/24 Sport Jacket Women - 850k.webp"
+            "./img/Women sportwear/24 Sport Jacket Women - 850k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1666,7 +1666,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1700000.0,
         "images": [
-            "/img/Women sportwear/25 One Set Jacket Women - 1.700k.webp"
+            "./img/Women sportwear/25 One Set Jacket Women - 1.700k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1677,7 +1677,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1700000.0,
         "images": [
-            "/img/Women sportwear/26 One Set Jacket Women - 1.700k.webp"
+            "./img/Women sportwear/26 One Set Jacket Women - 1.700k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1688,7 +1688,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2999000.0,
         "images": [
-            "/img/Women sportwear/27 One Set Jacket Women - 2.999k.webp"
+            "./img/Women sportwear/27 One Set Jacket Women - 2.999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1699,7 +1699,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2999000.0,
         "images": [
-            "/img/Women sportwear/28 One Set Jacket Women - 2.999k.webp"
+            "./img/Women sportwear/28 One Set Jacket Women - 2.999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1710,7 +1710,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2999000.0,
         "images": [
-            "/img/Women sportwear/29 One Set Jacket Women - 2.999k.webp"
+            "./img/Women sportwear/29 One Set Jacket Women - 2.999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1721,7 +1721,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 750000.0,
         "images": [
-            "/img/Women sportwear/3 Top Sport Women - 750k.webp"
+            "./img/Women sportwear/3 Top Sport Women - 750k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1732,7 +1732,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 2999000.0,
         "images": [
-            "/img/Women sportwear/30 One Set Jacket Women - 2.999k.webp"
+            "./img/Women sportwear/30 One Set Jacket Women - 2.999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1743,7 +1743,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/31 Jumpsuit Sport Women - 1.300k.webp"
+            "./img/Women sportwear/31 Jumpsuit Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1754,7 +1754,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/32 Jumpsuit Sport Women - 1.300k.webp"
+            "./img/Women sportwear/32 Jumpsuit Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1765,7 +1765,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/33 Jumpsuit Sport Women - 1.300k.webp"
+            "./img/Women sportwear/33 Jumpsuit Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1776,7 +1776,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 980000.0,
         "images": [
-            "/img/Women sportwear/34 Jumpsuit Sport Women - 980k.webp"
+            "./img/Women sportwear/34 Jumpsuit Sport Women - 980k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1787,7 +1787,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 980000.0,
         "images": [
-            "/img/Women sportwear/35 Jumpsuit Sport Women - 980k.webp"
+            "./img/Women sportwear/35 Jumpsuit Sport Women - 980k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1798,7 +1798,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 980000.0,
         "images": [
-            "/img/Women sportwear/36 Jumpsuit Sport Women - 980k.webp"
+            "./img/Women sportwear/36 Jumpsuit Sport Women - 980k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1809,7 +1809,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 980000.0,
         "images": [
-            "/img/Women sportwear/37 Jumpsuit Sport Women - 980k.webp"
+            "./img/Women sportwear/37 Jumpsuit Sport Women - 980k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1820,7 +1820,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 980000.0,
         "images": [
-            "/img/Women sportwear/38 Jumpsuit Sport Women - 980k.webp"
+            "./img/Women sportwear/38 Jumpsuit Sport Women - 980k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1831,7 +1831,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Women sportwear/39 Jumpsuit Sport Women - 999k.webp"
+            "./img/Women sportwear/39 Jumpsuit Sport Women - 999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1842,7 +1842,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 750000.0,
         "images": [
-            "/img/Women sportwear/4 Top Sport Women - 750k.webp"
+            "./img/Women sportwear/4 Top Sport Women - 750k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1853,7 +1853,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Women sportwear/40 Jumpsuit Sport Women - 999k.webp"
+            "./img/Women sportwear/40 Jumpsuit Sport Women - 999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1864,7 +1864,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Women sportwear/41 Jumpsuit Sport Women - 999k.webp"
+            "./img/Women sportwear/41 Jumpsuit Sport Women - 999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1875,7 +1875,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 999000.0,
         "images": [
-            "/img/Women sportwear/42 Jumpsuit Sport Women - 999k.webp"
+            "./img/Women sportwear/42 Jumpsuit Sport Women - 999k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1886,7 +1886,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Women sportwear/43 Jumpsuit Sport Women - 1.000k.webp"
+            "./img/Women sportwear/43 Jumpsuit Sport Women - 1.000k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1897,7 +1897,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Women sportwear/44 Jumpsuit Sport Women - 1.000k.webp"
+            "./img/Women sportwear/44 Jumpsuit Sport Women - 1.000k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1908,7 +1908,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Women sportwear/45 Jumpsuit Sport Women - 1.000k.webp"
+            "./img/Women sportwear/45 Jumpsuit Sport Women - 1.000k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1919,7 +1919,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Women sportwear/46 Jumpsuit Sport Women - 1.000k.webp"
+            "./img/Women sportwear/46 Jumpsuit Sport Women - 1.000k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1930,7 +1930,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1000000.0,
         "images": [
-            "/img/Women sportwear/47 Jumpsuit Sport Women - 1.000k.webp"
+            "./img/Women sportwear/47 Jumpsuit Sport Women - 1.000k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1941,7 +1941,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/48 Dress Sport Women - 1.200k.webp"
+            "./img/Women sportwear/48 Dress Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1952,7 +1952,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/49 Dress Sport Women - 1.200k.webp"
+            "./img/Women sportwear/49 Dress Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1963,7 +1963,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 900000.0,
         "images": [
-            "/img/Women sportwear/5 Top Sport Women - 900k.webp"
+            "./img/Women sportwear/5 Top Sport Women - 900k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1974,7 +1974,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/50 Dress Sport Women - 1.200k.webp"
+            "./img/Women sportwear/50 Dress Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1985,7 +1985,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/51 Dress Sport Women - 1.200k.webp"
+            "./img/Women sportwear/51 Dress Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -1996,7 +1996,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Women sportwear/52 Dress Sport Women - 1.100k.webp"
+            "./img/Women sportwear/52 Dress Sport Women - 1.100k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2007,7 +2007,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1100000.0,
         "images": [
-            "/img/Women sportwear/53 Dress Sport Women - 1.100k.webp"
+            "./img/Women sportwear/53 Dress Sport Women - 1.100k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2018,7 +2018,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/54 Dress Sport Women - 1.300k.webp"
+            "./img/Women sportwear/54 Dress Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2029,7 +2029,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/55 Dress Sport Women - 1.300k.webp"
+            "./img/Women sportwear/55 Dress Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2040,7 +2040,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/56 Dress Sport Women - 1.300k.webp"
+            "./img/Women sportwear/56 Dress Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2051,7 +2051,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/57 Dress Sport Women - 1.300k.webp"
+            "./img/Women sportwear/57 Dress Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2062,7 +2062,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1488000.0,
         "images": [
-            "/img/Women sportwear/58 Dress Sport Women - 1.488k.webp"
+            "./img/Women sportwear/58 Dress Sport Women - 1.488k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2073,7 +2073,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1520000.0,
         "images": [
-            "/img/Women sportwear/59 Dress Sport Women - 1.520k.webp"
+            "./img/Women sportwear/59 Dress Sport Women - 1.520k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2084,7 +2084,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 869000.0,
         "images": [
-            "/img/Women sportwear/6 Top Sport Women - 869k.webp"
+            "./img/Women sportwear/6 Top Sport Women - 869k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2095,7 +2095,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1270000.0,
         "images": [
-            "/img/Women sportwear/60 One Set Sport Women - 1.270k.webp"
+            "./img/Women sportwear/60 One Set Sport Women - 1.270k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2106,7 +2106,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1499000.0,
         "images": [
-            "/img/Women sportwear/61 One Set Sport Women - 1.499k .webp"
+            "./img/Women sportwear/61 One Set Sport Women - 1.499k .webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2117,7 +2117,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1499000.0,
         "images": [
-            "/img/Women sportwear/62 One Set Sport Women - 1.499k.webp"
+            "./img/Women sportwear/62 One Set Sport Women - 1.499k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2128,7 +2128,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1499000.0,
         "images": [
-            "/img/Women sportwear/63 One Set Sport Women - 1.499k.webp"
+            "./img/Women sportwear/63 One Set Sport Women - 1.499k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2139,7 +2139,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/64 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/64 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2150,7 +2150,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/65 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/65 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2161,7 +2161,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/66 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/66 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2172,7 +2172,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/67 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/67 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2183,7 +2183,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/68 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/68 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2194,7 +2194,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/69 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/69 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2205,7 +2205,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 869000.0,
         "images": [
-            "/img/Women sportwear/7 Top Sport Women - 869k.webp"
+            "./img/Women sportwear/7 Top Sport Women - 869k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2216,7 +2216,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/70 One Set Sport Women - 1.300k .webp"
+            "./img/Women sportwear/70 One Set Sport Women - 1.300k .webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2227,7 +2227,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1600000.0,
         "images": [
-            "/img/Women sportwear/71 One Set Sport Women - 1.600k.webp"
+            "./img/Women sportwear/71 One Set Sport Women - 1.600k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2238,7 +2238,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1400000.0,
         "images": [
-            "/img/Women sportwear/72 One Set Sport Women - 1.400k .webp"
+            "./img/Women sportwear/72 One Set Sport Women - 1.400k .webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2249,7 +2249,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1400000.0,
         "images": [
-            "/img/Women sportwear/73 One Set Sport Women - 1.400k.webp"
+            "./img/Women sportwear/73 One Set Sport Women - 1.400k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2260,7 +2260,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1400000.0,
         "images": [
-            "/img/Women sportwear/74 One Set Sport Women - 1.400k.webp"
+            "./img/Women sportwear/74 One Set Sport Women - 1.400k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2271,7 +2271,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1199000.0,
         "images": [
-            "/img/Women sportwear/75 One Set Sport Women - 1.199k .webp"
+            "./img/Women sportwear/75 One Set Sport Women - 1.199k .webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2282,7 +2282,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1199000.0,
         "images": [
-            "/img/Women sportwear/76 One Set Sport Women - 1.199k.webp"
+            "./img/Women sportwear/76 One Set Sport Women - 1.199k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2293,7 +2293,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1400000.0,
         "images": [
-            "/img/Women sportwear/77 One Set Sport Women - 1.400k.webp"
+            "./img/Women sportwear/77 One Set Sport Women - 1.400k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2304,7 +2304,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/78 One Set Sport Women - 1.200k.webp"
+            "./img/Women sportwear/78 One Set Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2315,7 +2315,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/79 One Set Sport Women - 1.200k.webp"
+            "./img/Women sportwear/79 One Set Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2326,7 +2326,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 869000.0,
         "images": [
-            "/img/Women sportwear/8 Top Sport Women - 869k.webp"
+            "./img/Women sportwear/8 Top Sport Women - 869k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2337,7 +2337,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1299000.0,
         "images": [
-            "/img/Women sportwear/80 One Set Sport Women - 1.299k.webp"
+            "./img/Women sportwear/80 One Set Sport Women - 1.299k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2348,7 +2348,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1299000.0,
         "images": [
-            "/img/Women sportwear/81 One Set Sport Women - 1.299k.webp"
+            "./img/Women sportwear/81 One Set Sport Women - 1.299k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2359,7 +2359,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1400000.0,
         "images": [
-            "/img/Women sportwear/82 One Set Sport Women - 1.400k.webp"
+            "./img/Women sportwear/82 One Set Sport Women - 1.400k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2370,7 +2370,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/83 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/83 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2381,7 +2381,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/84 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/84 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2392,7 +2392,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/85 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/85 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2403,7 +2403,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/86 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/86 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2414,7 +2414,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1300000.0,
         "images": [
-            "/img/Women sportwear/87 One Set Sport Women - 1.300k.webp"
+            "./img/Women sportwear/87 One Set Sport Women - 1.300k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2425,7 +2425,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/88 One Set Sport Women - 1.200k.webp"
+            "./img/Women sportwear/88 One Set Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2436,7 +2436,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/89 One Set Sport Women - 1.200k.webp"
+            "./img/Women sportwear/89 One Set Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2447,7 +2447,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 660000.0,
         "images": [
-            "/img/Women sportwear/9 Tanktop Sport Women - 660k.webp"
+            "./img/Women sportwear/9 Tanktop Sport Women - 660k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2458,7 +2458,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/90 One Set Sport Women - 1.200k.webp"
+            "./img/Women sportwear/90 One Set Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2469,7 +2469,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 1200000.0,
         "images": [
-            "/img/Women sportwear/91 One Set Sport Women - 1.200k.webp"
+            "./img/Women sportwear/91 One Set Sport Women - 1.200k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2480,7 +2480,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/92 Short Sport Women - 780k.webp"
+            "./img/Women sportwear/92 Short Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2491,7 +2491,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/93 Short Sport Women - 780k.webp"
+            "./img/Women sportwear/93 Short Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2502,7 +2502,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/94 Short Sport Women - 780k.webp"
+            "./img/Women sportwear/94 Short Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2513,7 +2513,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/95 Short Sport Women - 780k.webp"
+            "./img/Women sportwear/95 Short Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2524,7 +2524,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/96 Short Sport Women - 780k.webp"
+            "./img/Women sportwear/96 Short Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2535,7 +2535,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 780000.0,
         "images": [
-            "/img/Women sportwear/97 Short Sport Women - 780k.webp"
+            "./img/Women sportwear/97 Short Sport Women - 780k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2546,7 +2546,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 660000.0,
         "images": [
-            "/img/Women sportwear/98 Short Sport Women - 660k.webp"
+            "./img/Women sportwear/98 Short Sport Women - 660k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
@@ -2557,7 +2557,7 @@
         "description": "If you would like to purchase this product, please take a screenshot and send it to our WhatsApp admin to check product availability",
         "price": 660000.0,
         "images": [
-            "/img/Women sportwear/99 Short Sport Women - 660k.webp"
+            "./img/Women sportwear/99 Short Sport Women - 660k.webp"
         ],
         "category": "Women Sportwear",
         "discount": 0
