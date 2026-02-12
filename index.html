@@ -78,7 +78,7 @@
         <div class="container squish-container">
             <span class="hero-title"> ANTHA</span>
             <a href="./index.html#shop">
-                <button class="btn hero-btn-pos hero-btn">Explore Now</button>
+                <button class="btn hero-btn-pos hero-btn" style="filter: none;">Explore Now</button>
             </a>
         </div>
         <script>
@@ -113,10 +113,21 @@
 
             // Set initial image
             window.onload = () => {
-                hero.style.backgroundImage = `url(${images[0]})`;
+                hero.style.backgroundImage = `url(${images[0]}), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))`;
                 hero.style.transition = 'background-image 1s ease-in-out, opacity 1s ease-in-out';
                 setTimeout(() => setInterval(changeBackground, 3000), 1000);
             };
+
+            function changeBackground() {
+                hero.style.opacity = 0;
+
+                setTimeout(() => {
+                    // Use background-blend-mode or multiple backgrounds for darkening
+                    hero.style.backgroundImage = `url(${images[currentIndex]}), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))`;
+                    hero.style.opacity = 1;
+                    currentIndex = (currentIndex + 1) % images.length;
+                }, 100);
+            }
         </script>
     </section>
 
@@ -164,8 +175,6 @@
                             <div class="card-img-container">
                                 <img src="./img/ASSEET/Highlight/8.webp" class="card-img">
                             </div>
-                            <div class="card-content">
-                            </div>
                         </div>
                     </div>
 
@@ -175,9 +184,6 @@
                             <div class="card-img-container">
                                 <img src="./img/ASSEET/Highlight/9.webp" class="card-img">
                             </div>
-                            <div class="card-content">
-                            </div>
-
                         </div>
                     </div>
 
@@ -186,9 +192,6 @@
                             <div class="card-img-container">
                                 <img src="./img/ASSEET/Highlight/7.webp" class="card-img">
                             </div>
-                            <div class="card-content">
-                            </div>
-
                         </div>
                     </div>
 
@@ -197,9 +200,6 @@
                             <div class="card-img-container">
                                 <img src="./img/ASSEET/Highlight/8.webp" class="card-img">
                             </div>
-                            <div class="card-content">
-                            </div>
-
                         </div>
                     </div>
 
@@ -209,9 +209,6 @@
                             <div class="card-img-container">
                                 <img src="./img/ASSEET/Highlight/9.webp" class="card-img">
                             </div>
-                            <div class="card-content">
-                            </div>
-
                         </div>
                     </div>
 
@@ -263,50 +260,50 @@
     <div id="product-landing-container"></div>
 
     <script>
-    // Safe call wrapper: queue popup request if shop-popup hasn't initialized yet
-    function safeShowProductPopup(id){
-      if(typeof showProductPopup === 'function'){
-        showProductPopup(id);
-      } else {
-        window._pendingProductPopup = id;
-      }
-    }
+        // Safe call wrapper: queue popup request if shop-popup hasn't initialized yet
+        function safeShowProductPopup(id) {
+            if (typeof showProductPopup === 'function') {
+                showProductPopup(id);
+            } else {
+                window._pendingProductPopup = id;
+            }
+        }
 
-    document.addEventListener('DOMContentLoaded', () => {
-      if(window._pendingProductPopup && typeof showProductPopup === 'function'){
-        showProductPopup(window._pendingProductPopup);
-        window._pendingProductPopup = null;
-      }
-    });
+        document.addEventListener('DOMContentLoaded', () => {
+            if (window._pendingProductPopup && typeof showProductPopup === 'function') {
+                showProductPopup(window._pendingProductPopup);
+                window._pendingProductPopup = null;
+            }
+        });
 
-    (function(){
-      const categories = [
-        { key: 'Women casualwear', title: 'Casualwear Women', id:'casualwear-slider', query:'Women%20casualwear'},
-        { key: 'Women Sportwear', title: 'Sportwear Women', id:'Sportwear-slider', query:'Women%20Sportwear'},
-        { key: 'Men Sportswear', title: 'Sportswear Men', id:'sportswearMan-slider', query:'Men%20Sportswear'},
-        { key: 'Caps & Hats', title: 'Caps & Hats', id:'CapsHats-slider', query:'Caps%20%26%20Hats'},
-        { key: 'Accessories', title: 'Accessories', id:'accessories-slider', query:'Accessories'}
-      ];
+        (function () {
+            const categories = [
+                { key: 'Women casualwear', title: 'Casualwear Women', id: 'casualwear-slider', query: 'Women%20casualwear' },
+                { key: 'Women Sportwear', title: 'Sportwear Women', id: 'Sportwear-slider', query: 'Women%20Sportwear' },
+                { key: 'Men Sportswear', title: 'Sportswear Men', id: 'sportswearMan-slider', query: 'Men%20Sportswear' },
+                { key: 'Caps & Hats', title: 'Caps & Hats', id: 'CapsHats-slider', query: 'Caps%20%26%20Hats' },
+                { key: 'Accessories', title: 'Accessories', id: 'accessories-slider', query: 'Accessories' }
+            ];
 
-      function fmtPrice(p){
-        if(p === undefined || p === null) return '';
-        return 'Rp ' + Math.round(p).toLocaleString();
-      }
+            function fmtPrice(p) {
+                if (p === undefined || p === null) return '';
+                return 'Rp ' + Math.round(p).toLocaleString();
+            }
 
-      fetch('./products.json')
-        .then(r=>r.json())
-        .then(products=>{
-          const container = document.getElementById('product-landing-container');
-          categories.forEach(cat=>{
-            const items = products.filter(p=>p.category===cat.key).slice(0,8);
-            if(items.length===0) return;
-            const section = document.createElement('section');
-            section.className = 'prod-land';
-            section.innerHTML = `
+            fetch('./products.json')
+                .then(r => r.json())
+                .then(products => {
+                    const container = document.getElementById('product-landing-container');
+                    categories.forEach(cat => {
+                        const items = products.filter(p => p.category === cat.key).slice(0, 8);
+                        if (items.length === 0) return;
+                        const section = document.createElement('section');
+                        section.className = 'prod-land';
+                        section.innerHTML = `
               <div class="prod-land-tit"><h2>${cat.title}</h2></div>
               <div class="cards-slider-container" id="${cat.id}">
                 <div class="cards-wrapper">
-                  ${items.map(item=>`
+                  ${items.map(item => `
                     <div class="product-card" onclick="safeShowProductPopup(${item.id})" data-id="${item.id}" role="button" tabindex="0">
                       <div class="card-image"><img src="${item.images && item.images[0] ? item.images[0] : 'https://via.placeholder.com/400x500?text=No+image'}" alt="${item.name}"></div>
                       <div class="card-content">
@@ -322,42 +319,42 @@
               <div class="slider-dots"></div>
               <a class="otw-cat" href="./Products.html?category=${cat.query}">See More Collection</a>
             `;
-            container.appendChild(section);
-          });
+                        container.appendChild(section);
+                    });
 
-          // initialize any new sliders in case slider.js already ran
-          function initNewSliders() {
-            const nodes = document.querySelectorAll('.cards-slider-container[id]');
-            nodes.forEach(containerEl=>{
-              const id = containerEl.id;
-              if(!id) return;
-              window.sliders = window.sliders || {};
-              if(window.sliders[id]) return;
-              if(typeof CardSlider === 'function'){
-                window.sliders[id] = new CardSlider(id);
-                window.sliders[id].options.autoSlide = true;
-                window.sliders[id].options.slideInterval = 4000;
-                window.sliders[id].startAutoSlide();
-              }
-            });
-          }
-          setTimeout(initNewSliders, 100);
-          window.addEventListener('load', initNewSliders);
+                    // initialize any new sliders in case slider.js already ran
+                    function initNewSliders() {
+                        const nodes = document.querySelectorAll('.cards-slider-container[id]');
+                        nodes.forEach(containerEl => {
+                            const id = containerEl.id;
+                            if (!id) return;
+                            window.sliders = window.sliders || {};
+                            if (window.sliders[id]) return;
+                            if (typeof CardSlider === 'function') {
+                                window.sliders[id] = new CardSlider(id);
+                                window.sliders[id].options.autoSlide = true;
+                                window.sliders[id].options.slideInterval = 4000;
+                                window.sliders[id].startAutoSlide();
+                            }
+                        });
+                    }
+                    setTimeout(initNewSliders, 100);
+                    window.addEventListener('load', initNewSliders);
 
-          // Accessibility: open popup when focused card is activated via Enter or Space
-          document.addEventListener('keydown', (e) => {
-            const active = document.activeElement;
-            if (!active || !active.classList) return;
-            if (!active.classList.contains('product-card')) return;
-            if (e.key === 'Enter' || e.key === ' ') {
-              e.preventDefault();
-              const id = active.dataset.id;
-              if (id) showProductPopup(id);
-            }
-          });
-        })
-        .catch(err=>console.error('Failed to load products.json',err));
-    })();
+                    // Accessibility: open popup when focused card is activated via Enter or Space
+                    document.addEventListener('keydown', (e) => {
+                        const active = document.activeElement;
+                        if (!active || !active.classList) return;
+                        if (!active.classList.contains('product-card')) return;
+                        if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            const id = active.dataset.id;
+                            if (id) showProductPopup(id);
+                        }
+                    });
+                })
+                .catch(err => console.error('Failed to load products.json', err));
+        })();
     </script>
 
 
@@ -634,7 +631,4 @@
 
 </body>
 
-
 </html>
-
-
