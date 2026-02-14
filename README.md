@@ -1,2 +1,2 @@
-# [Atnha](https://ewaldherzong433-beep.github.io/ewaldherzong433-beep/)
+# [Atnha](https://ewaldherzong433-beep.github.io/Athna/)
 ya
