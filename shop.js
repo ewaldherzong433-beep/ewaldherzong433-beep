@@ -125,7 +125,6 @@ class Product {
             ` : ` ` }
             
             <div class="popup-description">
-                <h3>Description</h3>
                 <p>${this.description}</p>
             </div>
             
