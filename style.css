@@ -25,9 +25,16 @@
        If hover effects on shopcon btn fail, define it here. */
 }
 
+html {
+    scroll-padding-top: 80px;
+    /* Match your header height */
+    scroll-behavior: smooth;
+    /* Fallback for browsers that support it */
+}
+
 html,
 body {
-    scroll-behavior: smooth !important;
+
     background-color: var(--background);
     width: 100%;
     height: 100%;
@@ -41,7 +48,13 @@ body {
     overflow-y: auto;
     min-height: 100vh;
     font-size: 16px;
+    overflow: auto;
+    /* or visible */
+    height: auto;
 }
+
+
+
 
 /* Helper Class */
 .hidden {
@@ -57,6 +70,7 @@ body.popup-open {
    ========================================================================== */
 a {
     text-decoration: none;
+    transition: color 0.1s ease;
 }
 
 img {
@@ -1306,7 +1320,7 @@ header {
 .product-popup.active {
     opacity: 1;
     visibility: visible;
-    z-index: 9999;
+    z-index: 10000;
 }
 
 .popup-sizes {
@@ -2108,6 +2122,11 @@ footer .container {
 
 /* Max Width: 992px */
 @media (max-width: 922px) {
+
+    .nav-link{
+        font-size: 18px;
+    }
+
     .product-image-container {
         height: 270px;
     }
@@ -2196,9 +2215,14 @@ footer .container {
 
 
     /* Header Switching */
-    .desktop-header {
+    .desktop-header:not(footer .desktop-header) {
         display: none;
     }
+
+    footer .nav-link {
+        font-size: 13px;
+    }
+
 
     .mobile-header {
         display: flex;
@@ -2763,6 +2787,11 @@ footer .container {
 /* Max Width: 480px */
 @media (max-width: 480px) {
 
+    footer .nav-link {
+        font-size: 13px;
+    }
+
+
     .shopcon .section-title h2 {
         font-size: 3vw;
         padding: 0 10px 0 10px;
@@ -2794,7 +2823,8 @@ footer .container {
         padding: 0;
     }
 
-    .hero-btn-pos,.hero .btn {
+    .hero-btn-pos,
+    .hero .btn {
         font-size: 3vw;
         bottom: 10px;
         padding: 4px 10px;
@@ -2802,16 +2832,17 @@ footer .container {
     }
 
 
-    
+
 
 
 
 
     /* About */
-    .about-us{
+    .about-us {
         padding: 20px;
         grid-template-columns: 0.6fr 1fr;
     }
+
     .about-tag {
         bottom: 0;
         left: 0;
@@ -2821,7 +2852,7 @@ footer .container {
     }
 
 
-    .about-picture img{
+    .about-picture img {
         height: 300px;
         width: 250px;
     }
@@ -3196,7 +3227,8 @@ footer .container {
 
 
 .category-header {
-    overflow: visible !important; /* Prevents clipping */
+    overflow: visible !important;
+    /* Prevents clipping */
     position: relative;
     z-index: 9998;
 }
@@ -3208,13 +3240,15 @@ footer .container {
     z-index: auto;
 }
 
-/* Fix any parent with overflow hidden */
-.container {
-    overflow: visible !important;
-}
+
 
 /* Ensure body/html don't clip */
-html, body {
+html,
+body {
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+footer .desktop-header {
+    justify-content: center;
 }
