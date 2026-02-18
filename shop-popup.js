@@ -146,7 +146,6 @@ class ProductPopup {
                         ` : `<span class="size-tag placeholder hidden">&nbsp;</span>`}
                         
                         <div class="popup-description">
-                            <h3>Description</h3>
                             <p>${product.description}</p>
                         </div>
                         

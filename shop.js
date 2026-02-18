@@ -15,7 +15,7 @@ class Product {
     }
 
     formatPrice(price) {
-        return 'Rp ' + price.toLocaleString('id-ID');
+        return 'Rp ' + price.toLocaleString('id-ID')+', - IDR';
     }
 
     hasDiscount() {

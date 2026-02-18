@@ -47,7 +47,7 @@ body {
     overflow: auto;
     /* or visible */
     height: auto;
-    color : var(--background2);
+    color: var(--background2);
 }
 
 
@@ -628,7 +628,7 @@ header {
 .swiper-button-next,
 .swiper-button-prev {
     color: white;
-    
+
     width: 50px;
     height: 8vw;
 
@@ -739,8 +739,8 @@ header {
 .dropdown-btn {
     background: white;
     border: 3px solid #46483B;
-    padding: 10px 50px;
-    border-radius: 15px;    
+    padding: 4px 80px;
+    border-radius: 50px;
     cursor: pointer;
     font-size: 1rem;
     color: var(--background2);
@@ -748,6 +748,10 @@ header {
     text-align: center;
     width: auto;
     min-width: max-content;
+    align-items: center;
+    /* Vertical centering */
+    justify-content: center;
+    /* Horizontal centering */
 }
 
 .dropdown-arrow {
@@ -771,15 +775,19 @@ header {
     display: block;
     background: white;
     border: 3px solid #46483B;
-    padding: 10px 50px;
+    padding: 4px 6px;
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 50px;
     color: var(--background2);
     white-space: nowrap;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 5px;
+    margin-top: 2px;
+    line-height: normal;
+    /* Ensures consistent line height */
+    vertical-align: middle;
+    /* Vertically centers if needed */
 }
 
 .dropdown-item:hover {
@@ -810,7 +818,7 @@ header {
     padding-bottom: 10px;
     font-family: var(--font2, "Cinzel"), serif;
     font-weight: 400;
-    
+
 }
 
 .prod-land-tit h2::after {
@@ -944,6 +952,7 @@ header {
     color: var(--background2);
     font-weight: bold;
     margin-bottom: 0.5rem;
+    font-weight: 400;
     font-family: var(--font2, "Cinzel"), serif;
 }
 
@@ -989,39 +998,18 @@ header {
 
 .prev-arrow {
     left: 0.5rem;
+    display: none;
 }
 
 .next-arrow {
     right: 3rem;
+    display: none;
 }
 
-.slider-dots {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    margin: 1.5rem 0;
-}
 
-.dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--background2);
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.dot.active {
-    background: var(--text-on-primary);
-    transform: scale(1.2);
-}
-
-.dot:hover {
-    background: var(--text-on-primary);
-}
 
 .otw-cat {
-    background-color: var(--background);
+    background-color: whitesmoke;
     display: block;
     text-align: center;
     margin: 1.4rem auto 0;
@@ -1029,7 +1017,7 @@ header {
     padding: 0.2rem 0.2rem;
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
-    
+
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -1037,8 +1025,6 @@ header {
 }
 
 .otw-cat:hover {
-    background: rgba(0, 0, 0, 0.25);
-    color: black;
     transform: translateY(-2px);
 }
 
@@ -1058,8 +1044,8 @@ header {
 
 .cat-btn-bot {
     display: flex;
-    color: var(--text-on-primary);
-    background-color: var(--background2);
+    color: var(--background2);
+    background-color: rgba(230, 230, 230, 0.8);
     gap: 20px;
     padding: 10px 35vw;
     white-space: nowrap;
@@ -1068,6 +1054,14 @@ header {
     align-items: center;
     justify-content: center;
     border-radius: 40px;
+    font-size: 1.4rem;
+}
+
+.cat-btn-bot:hover {
+    content: "";
+    transition: 0.5s;
+    transform: translateY(3px);
+    color: var(--secondary-color)
 }
 
 /* ==========================================================================
@@ -1144,13 +1138,13 @@ header {
 
 .map-description h4 {
     font-size: 1.2rem;
-    color: var(--text-on-primary);
+    color: white;
     margin-bottom: 5px;
     font-weight: 600;
 }
 
 .map-description p {
-    color: var(--text-on-primary);
+    color: white;
     font-size: 0.95rem;
     line-height: 1.4;
 }
@@ -1187,11 +1181,11 @@ header {
 .contact-details h4 {
     font-size: 1.2rem;
     margin-bottom: 5px;
-    color: var(--text-on-primary);
+    color: white;
 }
 
 .contact-details p {
-    color: var(--text-on-primary);
+    color: white;
 }
 
 /* ==========================================================================
@@ -1227,7 +1221,7 @@ header {
 
 .shopcon .section-title h2 {
     font-size: 2.2vw;
-    color: white;
+    color: var(--background2);
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-flex;
@@ -1235,18 +1229,20 @@ header {
     position: relative;
     width: 100%;
     font-weight: normal;
-    background-color: var(--background2);
+    background-color: white;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     padding: 0.05vw;
     padding-right: 40px;
     padding-left: 100px;
     transform: translateX(-10%);
+    border: 3px solid black;
+
 }
 
 .shopcon .btn {
-    background-color: var(--primary-color);
-    color: var(--text-on-primary);
+    background-color: white;
+    color: var(--background2);
     padding: 10px 40px;
     text-decoration: none;
     border-radius: 50px;
@@ -1260,6 +1256,8 @@ header {
     vertical-align: middle;
     line-height: 1;
     height: 100%;
+    border: 3px solid black;
+    font-weight: 400;
 }
 
 .shopcon .btn:hover {
@@ -1351,7 +1349,7 @@ header {
 }
 
 .popup-content {
-    background: var(--background2);
+    background: white;
     width: 90%;
     max-width: 900px;
     max-height: 89vh;
@@ -1409,6 +1407,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-basis: 40%;
+    box-shadow: 0 0 25.6px 5px rgba(0, 0, 0, 0.25);
 }
 
 .popup-content.horizontal-layout .popup-images {
@@ -1425,12 +1424,12 @@ header {
     position: relative;
     width: 100%;
     max-width: 500px;
-    margin-bottom: 20px;
+    
 }
 
 .popup-content.horizontal-layout .main-image-container {
     max-width: 100%;
-    margin-bottom: 20px;
+    
 }
 
 .main-image {
@@ -1520,16 +1519,15 @@ header {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    background: var(--background2);
+    background: white;
     border-bottom-right-radius: 100px;
-    align-items: flex-start;
     font-family: var(--font2);
 }
 
 .category-badge {
     display: inline-block;
     background: var(--background);
-    color: var(--text-on-primary);
+    color: var(--background2);
     padding: 6px 15px;
     border-radius: 25px;
     font-size: 13px;
@@ -1543,7 +1541,7 @@ header {
 .popup-title {
     font-size: 26px;
     margin: 0 0 15px 0;
-    color: var(--text-on-primary);
+    color: var(--background2);
     font-weight: 700;
     line-height: 1.3;
 }
@@ -1561,6 +1559,7 @@ header {
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
+    border-bottom: var(--background2) solid 1px;
 }
 
 .popup-price .original-price {
@@ -1587,9 +1586,10 @@ header {
 }
 
 .popup-price .current-price {
-    color: var(--text-on-primary);
+    color: var(--background2);
     font-size: 26px;
     font-weight: 800;
+
 }
 
 .discount-badge {
@@ -1620,7 +1620,7 @@ header {
 }
 
 .popup-description h3 {
-    color: var(--text-on-primary);
+    color: var(--background2);
     margin: 0 0 12px 0;
     font-size: 18px;
     font-weight: 600;
@@ -1629,7 +1629,7 @@ header {
 }
 
 .popup-description p {
-    color: var(--text-on-primary);
+    color: var(--background2);
     line-height: 1.7;
     margin: 0;
     font-size: 16px;
@@ -1906,7 +1906,6 @@ footer .container {
 .pagination-wrapper {
     margin-top: 40px;
     padding: 20px 0;
-    border-top: 1px solid var(--text-on-primary);
     text-align: center;
     width: 100%;
 }
@@ -2346,8 +2345,7 @@ footer .container {
     }
 
     .slider-arrow {
-        width: 40px;
-        height: 40px;
+        display: none;
     }
 
     /* Shop Page */
@@ -3233,6 +3231,9 @@ footer .container {
 }
 
 
+
+
+/*steal */
 .category-header {
     overflow: visible !important;
     /* Prevents clipping */
@@ -3265,7 +3266,7 @@ footer .desktop-header {
 .product-card {
     background: white;
     border: 1px solid #ddd;
-    
+
     padding: 30px;
     transition: transform 0.3s, box-shadow 0.3s;
     position: relative;
@@ -3277,6 +3278,8 @@ footer .desktop-header {
     flex-direction: column;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    font-family: var(--font2);
+    border-radius: 50px 0 20px 0;
 }
 
 .product-card:hover {
@@ -3339,15 +3342,18 @@ footer .desktop-header {
 }
 
 .product-name {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
-    
+    font-family: var(--font2);
+
     color: #333;
     line-height: 1.3;
 }
 
 .product-price {
-    font-size: 1.1em;
+    font-weight: 300;
+    font-family: var(--font2);
+    font-size: 1em;
     color: #2c3e50;
     margin: 5px 0;
     display: flex;
@@ -3356,7 +3362,6 @@ footer .desktop-header {
     flex-wrap: wrap;
     margin-top: auto;
     font-weight: bold;
-    font-size: 18px;
 }
 
 .original-price {
@@ -3501,18 +3506,18 @@ footer .desktop-header {
     .product-image-container {
         height: 250px;
     }
-    
+
     .product-image {
         height: 250px;
     }
-    
+
     .product-card:has(.discount-badge)::before {
         top: 2px;
         left: 3px;
         font-size: 5px;
         padding: 3px 8px;
     }
-    
+
     .discount-badge {
         top: 10px;
         right: 10px;
@@ -3524,36 +3529,36 @@ footer .desktop-header {
 @media (max-width: 576px) {
     .product-card {
         padding: 0;
-        width: 100px;
+        width: 120px;
     }
-    
+
     .product-name,
     .product-price {
         margin-left: 10px;
         font-size: 0.7rem;
     }
-    
+
     .category {
         display: none;
     }
-    
+
     .product-price {
         flex-direction: column;
         align-items: flex-start;
         gap: 5px;
     }
-    
+
     .discount-badge {
         top: 2px;
         right: 5px;
         padding: 1px 3px;
         font-size: 11px;
     }
-    
+
     .product-image-container {
         height: 100px;
     }
-    
+
     .product-image {
         height: 100px;
     }
@@ -3563,4 +3568,19 @@ footer .desktop-header {
     .product-card:has(.discount-badge)::before {
         display: none;
     }
+
+    .product-card {
+        padding: 0;
+        width: 115px;
+        border-radius: 14.849px 0 5.94px 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .product-card {
+        padding: 0;
+        width: 90px;
+        border-radius: 14.849px 0 5.94px 0;
+    }
+
 }
