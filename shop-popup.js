@@ -3,7 +3,7 @@ class ProductPopup {
     constructor() {
         this.products = [];
         this.popupContainer = null;
-        
+
         // Create popup container if it doesn't exist
         this.initPopupContainer();
         this.init();
@@ -22,12 +22,12 @@ class ProductPopup {
         try {
             const response = await fetch('products.json');
             if (!response.ok) throw new Error('Failed to load products');
-            
+
             const data = await response.json();
             this.products = data.map(item => {
                 const images = item.images || [item.image];
                 const sizes = item.size || []; // Handle size array
-                
+
                 return {
                     id: item.id,
                     name: item.name,
@@ -39,41 +39,41 @@ class ProductPopup {
                     images: images,
                     size: sizes, // Add size property
                     currentImageIndex: 0,
-                    
+
                     // Add methods to match shop.js Product class
                     hasDiscount() {
                         return this.discount > 0;
                     },
-                    
+
                     calculateDiscountedPrice() {
                         if (this.hasDiscount()) {
                             return Math.round(this.originalPrice * (1 - this.discount / 100));
                         }
                         return this.price;
                     },
-                    
+
                     hasMultipleImages() {
                         return this.images.length > 1;
                     },
-                    
+
                     hasSizes() {
                         return this.size && this.size.length > 0;
                     },
-                    
+
                     nextImage() {
                         if (this.hasMultipleImages()) {
                             this.currentImageIndex = (this.currentImageIndex + 1) % this.images.length;
                         }
                         return this.images[this.currentImageIndex];
                     },
-                    
+
                     previousImage() {
                         if (this.hasMultipleImages()) {
                             this.currentImageIndex = (this.currentImageIndex - 1 + this.images.length) % this.images.length;
                         }
                         return this.images[this.currentImageIndex];
                     },
-                    
+
                     formatPrice(price) {
                         return 'Rp ' + price.toLocaleString('id-ID');
                     }
@@ -98,59 +98,57 @@ class ProductPopup {
         const hasSizes = product.hasSizes();
 
         return `
-            <div class="product-popup" data-id="${product.id}">
-                <div class="popup-content horizontal-layout">
-                    <button class="close-popup">&times;</button>
-                    
-                    
-                        
-                            <img src="${product.images[0]}" alt="${product.name}" 
-                                 class="main-image boxs" id="main-image-${product.id}">
-                            
-                            ${hasMultipleImages ? `
-                                <button class="image-nav-btn prev-btn">‹</button>
-                                <button class="image-nav-btn next-btn">›</button>
-                            ` : ''}
-                        
-                        
-   
-                    
-                    
-                    <div class="popup-details">
+           <div class="product-popup" data-id="${product.id}">
+    <div class="popup-content horizontal-layout">
+        <button class="close-popup">&times;</button>
 
-                        <h2 class="popup-title">${product.name}</h2>
-                        
-                        <div class="popup-price">
-                            ${hasDiscount ?
+
+
+        <img src="${product.images[0]}" alt="${product.name}" class="main-image boxs" id="main-image-${product.id}">
+
+        ${hasMultipleImages ? `
+        <button class="image-nav-btn prev-btn">‹</button>
+        <button class="image-nav-btn next-btn">›</button>
+        ` : ''}
+
+
+
+
+
+        <div class="popup-details">
+
+            <h2 class="popup-title">${product.name}</h2>
+
+            <div class="popup-price">
+                ${hasDiscount ?
                 `<span class="original-price">${this.formatPrice(product.originalPrice)}</span>
-                                 <span class="discounted-price">${this.formatPrice(discountedPrice)}</span>
-                                 <span class="discount-percent">-${product.discount}%</span>`
+                <span class="discounted-price">${this.formatPrice(discountedPrice)}</span>
+                <span class="discount-percent">-${product.discount}%</span>`
                 : `<span class="current-price">${this.formatPrice(product.price)}</span>`
             }
-                        </div>
-                        <div class="popup-sizes">
-                            
-                        ${hasSizes ? `<h3>Available Sizes</h3>
-                            <div class="size-options">
-                                ${product.size.map(s => `<span class="size-tag">${s}</span>`).join('')}
-                            </div>
-                        </div>
-                        ` : `<span class="size-tag placeholder hidden">&nbsp;</span>`}
-                        
-                        <div class="popup-description">
-                            <p>${product.description}</p>
-                        </div>
-                        
-                        <div class="popup-actions">
-                            <a href="https://wa.me/6287864853508?text=Hi, I want to order: ${encodeURIComponent(product.name)} (ID: ${product.id}) - Price: ${this.formatPrice(discountedPrice)}" 
-                               target="_blank" 
-                               class="whatsapp-order-btn">
-                                <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
-                            </a>
-                        </div>
-                    </div>
+            </div>
+            <div class="popup-sizes">
+
+                ${hasSizes ? `<h3>Available Sizes</h3>
+                <div class="size-options">
+                    ${product.size.map(s => `<span class="size-tag">${s}</span>`).join('')}
                 </div>
             </div>
+            ` : `<span class="size-tag placeholder hidden">&nbsp;</span>`}
+
+            <div class="popup-description">
+                <p>${product.description}</p>
+            </div>
+
+            <div class="popup-actions">
+                <a href="https://wa.me/6287864853508?text=Hi, I want to order: ${encodeURIComponent(product.name)} (ID: ${product.id}) - Price: ${this.formatPrice(discountedPrice)}"
+                    target="_blank" class="whatsapp-order-btn">
+                    <i class="fa-brands fa-whatsapp"></i> Order via WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
         `;
     }
 
@@ -282,21 +280,21 @@ class ProductPopup {
 
     async init() {
         await this.loadProducts();
-        
+
         // Check for product ID in URL
         const urlParams = new URLSearchParams(window.location.search);
         const productId = urlParams.get('product');
-        
+
         if (productId) {
             this.showProductPopup(productId);
         }
-        
+
         // Check for pending product popup
         if (window._pendingProductPopup) {
             this.showProductPopup(window._pendingProductPopup);
             window._pendingProductPopup = null;
         }
-        
+
         // Make showPopup available globally
         window.showProductPopup = (id) => this.showProductPopup(id);
         window.closeProductPopup = () => this.closePopup();

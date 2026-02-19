@@ -89,20 +89,20 @@ class Product {
     <div class="popup-content horizontal-layout">
         <button class="close-popup">&times;</button>
         
-        <div class="popup-images">
-            <div class="main-image-container">
-                <img src="${this.images[0]}" alt="${this.name}" class="main-image" id="main-image-${this.id}">
+        
+            
+                <img src="${this.images[0]}" alt="${this.name}" class="main-image boxs" id="main-image-${this.id}">
                 
                 ${hasMultipleImages ? `
                     <button class="image-nav-btn prev-btn">‹</button>
                     <button class="image-nav-btn next-btn">›</button>
                 ` : ''}
-            </div>
-        </div>
+            
+        
         
         <div class="popup-details">            
             <h2 class="popup-title">${this.name}</h2>
-            <div class="category-badge">${this.category}</div>
+            
             
             <div class="popup-price">
                 ${hasDiscount ?
@@ -115,10 +115,9 @@ class Product {
             
             ${hasSizes ? `
             <div class="popup-sizes">
-                <h3>Available Sizes</h3>
                 <div class="size-options">
                     ${Array.isArray(this.size) && this.size.length > 0
-                        ? this.size.map(s => `<span class="size-tag">${s}</span>`).join('')
+                        ? "<h3>Available Sizes</h3>"+this.size.map(s => `<span class="size-tag">${s}</span>`).join('')
                         : `<span class="size-tag placeholder hidden">&nbsp;</span>`}
                 </div>
             </div>
