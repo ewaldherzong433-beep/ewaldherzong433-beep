@@ -15,7 +15,7 @@ class Product {
     }
 
     formatPrice(price) {
-        return 'Rp ' + price.toLocaleString('id-ID')+', - IDR';
+        return 'Rp ' + price.toLocaleString('id-ID') + ', - IDR';
     }
 
     hasDiscount() {
@@ -108,22 +108,28 @@ class Product {
             
             <div class="popup-price">
                 ${hasDiscount ?
-                    `<span class="original-price">${this.formatPrice(this.originalPrice)}</span>
+                `<span class="original-price">${this.formatPrice(this.originalPrice)}</span>
                      <span class="discounted-price">${this.formatPrice(discountedPrice)}</span>
                      <span class="discount-percent">-${this.discount}%</span>`
-                    : `<span class="current-price">${this.formatPrice(this.price)}</span>`
-                }
+                : `<span class="current-price">${this.formatPrice(this.price)}</span>`
+            }
             </div>
             
             ${hasSizes ? `
             <div class="popup-sizes">
-                
-                    ${Array.isArray(this.size) && this.size.length > 0
-                        ? `<h3>Available Sizes</h3> <div class="size-options">`+this.size.map(s => `<span class="size-tag">${s}</span>`).join('')
-                        : `<span class="size-tag placeholder hidden">&nbsp;</span>`}
-                </div>
-            </div>
-            ` : ` ` }
+    ${Array.isArray(this.size) && this.size.length > 0 ? `
+        <h3>Available Sizes</h3>
+        <div class="size-options">
+            ${this.size.map(s => `<span class="size-tag">${s}</span>`).join('')}
+        </div>
+    ` : `
+        <!-- Empty sizes container with min-height to maintain layout -->
+        <div class="size-options empty-sizes">
+            <span class="size-tag" style="visibility: hidden;">OS</span>
+        </div>
+    `}
+</div>
+            ` : ` `}
             
             <div class="popup-description">
                 <p>${this.description}</p>
@@ -197,7 +203,7 @@ class ShopApp {
 
                 // Handle both old format (single image) and new format (multiple images)
                 const images = item.images || [item.image];
-                
+
                 // Handle size array - ensure it's always an array
                 const sizes = item.size || [];
 

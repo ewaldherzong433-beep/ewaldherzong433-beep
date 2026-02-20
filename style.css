@@ -73,7 +73,7 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-    max-width: 1200px;
+    max-width: 88%;
 }
 
 .btn {
@@ -498,7 +498,7 @@ header {
     height: auto;
     object-fit: cover;
     display: block;
-    border-radius: 100px 20px 20px 20px;
+    border-radius: 100px 20px 0 0;
 }
 
 .container.squish-container {
@@ -571,20 +571,29 @@ header {
     border-bottom-right-radius: 100px;
 }
 
-.swiper-slide-active {
-    opacity: 1 !important;
-    transform: scale(1.2) !important;
-    filter: none !important;
-    z-index: 3;
-
+/* Slide sebelumnya (kiri) */
+.swiper-slide-prev {
+    transform: scale(0.85) translateX(10vw) !important;
+    /* Geser ke kanan */
+    opacity: 0.7 !important;
+    z-index: 2;
 }
 
-.swiper-slide-next,
-.swiper-slide-prev {
+/* Slide selanjutnya (kanan) */
+.swiper-slide-next {
+    transform: scale(0.85) translateX(-10vw) !important;
+    /* Geser ke kiri */
     opacity: 0.7 !important;
-    transform: scale(0.95) !important;
-    filter: blur(1px);
     z-index: 2;
+}
+
+/* Slide aktif (tengah) */
+.swiper-slide-active {
+    opacity: 1 !important;
+    transform: scale(1.2) translateX(0) !important;
+    /* Tetap di tengah */
+    filter: none !important;
+    z-index: 3;
 }
 
 .swiper-slide:nth-child(odd) {
@@ -898,7 +907,7 @@ header {
     height: 100%;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .product-card:hover {
@@ -909,7 +918,7 @@ header {
 /* Product Card with Image Hover Effect */
 .product-image-container {
     width: 100%;
-    
+
     position: relative;
     overflow: hidden;
     border-radius: 4px;
@@ -1224,7 +1233,7 @@ header {
 
 .cat-btn-bot:hover {
     content: "";
-
+    background-color: white;
     transition: 0.3s;
     transform: translateY(3px);
     color: var(--secondary-color);
@@ -2296,59 +2305,6 @@ footer .container {
     }
 
 
-    .highlight {
-        padding: 50px 0 30px;
-    }
-
-    .swiper {
-        padding: 30px 20px 30px;
-    }
-
-    .swiper-slide {
-        opacity: 0.25;
-        transform: scale(0.75);
-    }
-
-    .swiper-slide-active {
-        transform: scale(1.05) !important;
-    }
-
-    .swiper-slide-next,
-    .swiper-slide-prev {
-        opacity: 0.5 !important;
-        transform: scale(0.85) !important;
-    }
-
-    .trending-card {
-        width: 80%;
-        max-width: 350px;
-    }
-
-    .card-img-container {
-        height: 100%;
-        min-height: 180px;
-    }
-
-    .card-title {
-        font-size: 1.2rem;
-    }
-
-    .card-description {
-        font-size: 0.95rem;
-        -webkit-line-clamp: 2;
-    }
-
-    .swiper-button-next,
-    .swiper-button-prev {
-        width: 45px;
-        height: 45px;
-    }
-
-    .swiper-button-next:after,
-    .swiper-button-prev:after {
-        font-size: 1.2rem;
-    }
-
     .shop-container {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -2370,10 +2326,17 @@ footer .container {
 /* Max Width: 768px (Tablet / Mobile Breakpoint) */
 @media (max-width: 768px) {
 
-    .product-name{
+    .swiper-slide {
+        transform: scale(1.4);
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .product-name {
         font-size: 0.9rem;
     }
-    .product-price{
+
+    .product-price {
         font-size: 0.8rem;
     }
 
@@ -2426,90 +2389,7 @@ footer .container {
         max-width: 425px;
     }
 
-    .highlight {
-        padding: 40px 0 20px;
-    }
 
-    .swiper {
-        padding: 20px 15px 25px;
-    }
-
-    .swiper-slide {
-        opacity: 0.2;
-        transform: scale(0.7);
-        border-top-left-radius: 40px;
-        border-bottom-right-radius: 40px;
-        padding: 10px 0;
-    }
-
-    .swiper-slide-active {
-        transform: scale(1.05) !important;
-    }
-
-    .swiper-slide-next,
-    .swiper-slide-prev {
-        opacity: 0.4 !important;
-        transform: scale(0.8) !important;
-    }
-
-    .trending-card {
-        width: 100%;
-        max-width: 320px;
-        border-top-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-    }
-
-    .card-title {
-        font-size: 1.1rem;
-    }
-
-    .card-price {
-        font-size: 1.2rem;
-        margin-bottom: 15px;
-    }
-
-    .card-button {
-        padding: 12px 20px;
-        font-size: 0.9rem;
-    }
-
-    .card-tag {
-        top: 15px;
-        right: 15px;
-        padding: 6px 12px;
-        font-size: 0.8rem;
-    }
-
-    .swiper-button-next,
-    .swiper-button-prev {
-        width: 40px;
-        height: 40px;
-        display: none;
-    }
-
-    .swiper-pagination-bullet {
-        width: 12px;
-        height: 12px;
-        margin: 0 6px !important;
-    }
-
-    .cards-slider-container {
-        padding: 0 2.5rem;
-    }
-
-    .product-card {
-        flex: 0 0 220px;
-        padding: 12px;
-        border-radius: 30px 0;
-    }
-
-    .card-image {
-        height: 250px;
-    }
-
-    .slider-arrow {
-        display: none;
-    }
 
     .shopcon .section-title h2 {
         font-size: 3vw;
@@ -2569,8 +2449,9 @@ footer .container {
 
     .popup-content.horizontal-layout .main-image {
         height: 300px;
-        
+
     }
+
     .boxs {
         box-shadow: none;
         border-radius: 0;
@@ -2673,7 +2554,94 @@ footer .container {
 
 /* Max Width: 576px */
 @media (max-width: 576px) {
-        
+    .highlight {
+        padding: 40px 0 20px;
+    }
+
+    .swiper {
+        padding: 20px 15px 25px;
+    }
+
+    .swiper-slide {
+        opacity: 0.2;
+        transform: scale(0.7);
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        padding: 10px 0;
+    }
+
+    .swiper-slide-active {
+        transform: scale(1.05) !important;
+    }
+
+    .swiper-slide-next,
+    .swiper-slide-prev {
+        opacity: 0.4 !important;
+        transform: scale(0.8) !important;
+    }
+
+    .trending-card {
+        width: 100%;
+        max-width: 320px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-price {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    .card-button {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+
+    .card-tag {
+        top: 15px;
+        right: 15px;
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 40px;
+        height: 40px;
+        display: none;
+    }
+
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        margin: 0 6px !important;
+    }
+
+    .cards-slider-container {
+        padding: 0 2.5rem;
+    }
+
+    .product-card {
+        flex: 0 0 220px;
+        padding: 12px;
+        border-radius: 30px 0;
+    }
+
+    .card-image {
+        height: 250px;
+    }
+
+    .slider-arrow {
+        display: none;
+    }
+
+
+
+
     .cat-btn-bot {
         padding: 10px 13vw;
         font-size: 1rem;
@@ -2944,15 +2912,16 @@ footer .container {
 /* Max Width: 480px */
 @media (max-width: 480px) {
 
-        .cat-btn-bot {
+    .cat-btn-bot {
         padding: 10px 13vw;
         font-size: 0.9rem;
     }
 
-        .product-name{
+    .product-name {
         font-size: 0.8rem;
     }
-    .product-price{
+
+    .product-price {
         font-size: 0.7rem;
     }
 
@@ -3506,13 +3475,15 @@ footer .container {
 /* ==========================================================================
    END OF ADDITIONS - EVERYTHING BELOW THIS LINE IS YOUR ORIGINAL CSS
    ========================================================================== */
-   
-   /* Ensure the popup images container is properly constrained */
+
+/* Ensure the popup images container is properly constrained */
 .popup-images {
     display: flex;
     flex-direction: column;
-    height: 100%; /* Fill parent */
-    min-height: 0; /* Important for flex children */
+    height: 100%;
+    /* Fill parent */
+    min-height: 0;
+    /* Important for flex children */
 }
 
 /* For the main image wrapper */
@@ -3521,7 +3492,8 @@ footer .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 0; /* Critical for flexbox to respect parent height */
+    min-height: 0;
+    /* Critical for flexbox to respect parent height */
     width: 100%;
 }
 
@@ -3540,6 +3512,7 @@ footer .container {
     align-items: center;
     justify-content: center;
 }
+
 /* the popup images container is properly constrained */
 
 
@@ -3558,13 +3531,15 @@ footer .container {
 .product-image.main-image {
     opacity: 1;
     z-index: 1;
-    position: relative; /* Change this from absolute to relative */
+    position: relative;
+    /* Change this from absolute to relative */
 }
 
 .product-image.hover-image {
     opacity: 0;
     z-index: 2;
-    position: absolute; /* Keep this absolute */
+    position: absolute;
+    /* Keep this absolute */
     top: 0;
     left: 0;
 }
