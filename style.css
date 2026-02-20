@@ -2213,7 +2213,7 @@ footer .container {
     }
 
     .about-picture img {
-        border-radius: 5em 1em 1em 1em;
+        border-radius: 5em 1em 0 0;
     }
 
     .swiper-button-prev {
@@ -2321,15 +2321,45 @@ footer .container {
     .popup-content.horizontal-layout .popup-title {
         font-size: 24px;
     }
+
+    .trending-card {
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
 }
 
 /* Max Width: 768px (Tablet / Mobile Breakpoint) */
 @media (max-width: 768px) {
 
     .swiper-slide {
-        transform: scale(1.4);
-        border-top-left-radius: 5px;
-        border-bottom-right-radius: 5px;
+        transform: scale(0.9) !important;
+        /* Reduced from 1.4 to 0.9 */
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        transition: all 0.3s ease;
+    }
+
+    /* Active slide should be even bigger */
+    .swiper-slide-active {
+        transform: scale(1.1) !important;
+        opacity: 1 !important;
+        filter: none !important;
+    }
+
+    /* Adjacent slides */
+    .swiper-slide-prev {
+        transform: scale(0.85) translateX(10vw) !important;
+        opacity: 0.6 !important;
+    }
+
+    .swiper-slide-next {
+        transform: scale(0.85) translateX(-10vw) !important;
+        opacity: 0.6 !important;
+    }
+
+    .trending-card {
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
     }
 
     .product-name {
@@ -2351,7 +2381,7 @@ footer .container {
     }
 
     .hero {
-        margin-top: 13.2vh;
+        margin-top: 15.2vh;
         padding: 260px 20px;
         max-height: 88vh;
     }
@@ -2687,7 +2717,8 @@ footer .container {
     }
 
     .dropdown-btn {
-        padding: 3px;
+        padding: 5px 30px;
+        font-size: 11px;
     }
 
     .popup-images {
@@ -3072,6 +3103,14 @@ footer .container {
         padding: 10px;
         border-radius: 33px 0;
     }
+
+    .trending-card {
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        
+    }
+
+
 }
 
 /* Max Width: 400px */
@@ -3458,9 +3497,6 @@ footer .container {
 }
 
 /* Media queries - keep ALL your existing media queries exactly as they were */
-@media (max-width: 768px) {
-    /* Your existing media query styles */
-}
 
 @media (max-width: 576px) {
 
@@ -3556,4 +3592,17 @@ footer .container {
 /* For products without hover image, the main image stays visible */
 .product-card:not(:has(.hover-image)) .product-image.main-image {
     position: relative;
+}
+
+/* Max Width: 480px */
+@media (max-width: 480px) {
+    /* ... existing styles ... */
+    
+    .trending-card .card-img {
+        object-fit: contain !important;
+        object-position: top !important; /* Aligns image to top */
+        background-color: #f5f5f5; /* Optional: adds background color for empty space */
+    }
+    
+    /* ... rest of your existing styles ... */
 }
