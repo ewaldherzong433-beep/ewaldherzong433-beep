@@ -2292,6 +2292,10 @@ footer .container {
 
 /* Max Width: 992px */
 @media (max-width: 992px) {
+
+    .dropdown-btn{
+        padding: 0px 130px;
+    }
     .cat-btn-bot {
         padding: 10px 20vw;
     }
