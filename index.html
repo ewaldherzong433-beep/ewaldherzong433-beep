@@ -201,7 +201,23 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- Card 4 -->
+                    <div class="swiper-slide" onclick="showProductPopup(107)">
+                        <div class="trending-card">
+                            <div class="card-img-container">
+                                <img src="./img/ASSEET/Highlight/10.webp" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="swiper-slide" onclick="showProductPopup(110)">
+                        <div class="trending-card">
+                            <div class="card-img-container">
+                                <img src="./img/ASSEET/Highlight/11.webp" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- repeat card -->
                     <div class="swiper-slide" onclick="showProductPopup(56)">
                         <div class="trending-card">
                             <div class="card-img-container">
@@ -209,7 +225,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="swiper-slide" onclick="showProductPopup(154)">
                         <div class="trending-card">
                             <div class="card-img-container">
@@ -217,8 +232,6 @@
                             </div>
                         </div>
                     </div>
-
-
                     <div class="swiper-slide" onclick="showProductPopup(184)">
                         <div class="trending-card">
                             <div class="card-img-container">
@@ -226,6 +239,25 @@
                             </div>
                         </div>
                     </div>
+                                       <!-- Card 4 -->
+                    <div class="swiper-slide" onclick="showProductPopup(107)">
+                        <div class="trending-card">
+                            <div class="card-img-container">
+                                <img src="./img/ASSEET/Highlight/10.webp" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="swiper-slide" onclick="showProductPopup(110)">
+                        <div class="trending-card">
+                            <div class="card-img-container">
+                                <img src="./img/ASSEET/Highlight/11.webp" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
             <!-- Navigation buttons -->
@@ -304,7 +336,7 @@
 
             function fmtPrice(p) {
                 if (p === undefined || p === null) return '';
-                return 'Rp ' + Math.round(p).toLocaleString()+', -IDR';
+                return 'Rp ' + Math.round(p).toLocaleString() + ', -IDR';
             }
 
             fetch('./products.json')
@@ -351,7 +383,7 @@
                                 window.sliders[id] = new CardSlider(id);
                                 window.sliders[id].options.autoSlide = true;
                                 window.sliders[id].options.slideInterval = 4000;
-                                
+
                             }
                         });
                     }
@@ -554,7 +586,7 @@
             spaceBetween: 20,
             centeredSlides: true,
             // Responsive breakpoints
-           
+
             // Optional: Enable autoplay
             autoplay: {
                 delay: 4000,
