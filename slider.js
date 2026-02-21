@@ -27,7 +27,6 @@ class CardSlider {
         this.isHorizontalSwipe = false;
         this.startX = 0;
         this.startY = 0;
-        this.initialX = 0;
         this.currentTranslate = 0;
         this.prevTranslate = 0;
         this.currentIndex = 0;
@@ -43,9 +42,8 @@ class CardSlider {
         this.calculateCardWidth();
         this.createDots();
         this.setupEventListeners();
-        
+
         if (this.options.loop) {
-            // Set initial position to first real card
             setTimeout(() => {
                 this.currentIndex = this.totalRealCards;
                 this.slideToIndex(this.currentIndex, false);
@@ -61,7 +59,7 @@ class CardSlider {
     setupInfiniteLoop() {
         const cards = Array.from(this.wrapper.querySelectorAll('.product-card'));
         this.totalRealCards = cards.length;
-        
+
         if (this.totalRealCards <= this.options.cardsToShow) {
             this.options.loop = false;
             return;
@@ -70,7 +68,7 @@ class CardSlider {
         // Clone cards for infinite loop effect
         // Clone enough cards to cover the viewport when looping
         const cloneCount = Math.min(this.totalRealCards, this.options.cardsToShow);
-        
+
         const firstCards = cards.slice(0, cloneCount).map(card => card.cloneNode(true));
         const lastCards = cards.slice(-cloneCount).map(card => card.cloneNode(true));
 
@@ -204,11 +202,7 @@ class CardSlider {
         this.isHorizontalSwipe = false;
         this.prevTranslate = this.currentTranslate;
 
-        // Store the initial position for better direction detection
-        this.initialX = this.startX;
-        
-        // Remove any transition while dragging
-        this.wrapper.style.transition = 'none';
+        // Auto-slide is disabled, so no need to clear interval
     }
 
     handleTouchMove(e) {
@@ -230,14 +224,13 @@ class CardSlider {
                 this.isDragging = true;
                 this.wrapper.style.transition = 'none';
                 this.wrapper.classList.add('dragging');
-                e.preventDefault(); // Prevent page scroll
+                e.preventDefault();
             } else {
-                return; // Vertical scroll - let the page scroll
+                return;
             }
         }
 
         if (this.isDragging) {
-            e.preventDefault(); // Prevent page scroll while dragging horizontally
             this.currentTranslate = this.prevTranslate + diffX;
             this.setSliderPosition();
         }
@@ -266,7 +259,6 @@ class CardSlider {
         this.startX = e.clientX;
         this.prevTranslate = this.currentTranslate;
         this.isDragging = true;
-        this.wrapper.style.transition = 'none';
 
         const move = (e) => {
             if (this.isAnimating) return;
@@ -291,15 +283,16 @@ class CardSlider {
         this.wrapper.style.transition = 'transform 0.3s ease';
 
         const movedBy = this.currentTranslate - this.prevTranslate;
-        // Threshold determines when to move to next/prev slide
-        const threshold = this.cardFullWidth / 3;
+        const threshold = this.cardFullWidth / 4; // slightly more sensitive
 
-        if (Math.abs(movedBy) > threshold) {
-            // FIXED: When movedBy is negative (swipe left), we want to go to next slide (+1)
-            // When movedBy is positive (swipe right), we want to go to previous slide (-1)
-            const direction = movedBy < 0 ? 1 : -1;
-            this.slideToIndex(this.currentIndex + direction);
+        if (movedBy < -threshold) {
+            // Swiped LEFT → go next
+            this.slideNext();
+        } else if (movedBy > threshold) {
+            // Swiped RIGHT → go previous
+            this.slidePrev();
         } else {
+            // Not enough movement → snap back
             this.slideToIndex(this.currentIndex);
         }
     }
@@ -311,66 +304,65 @@ class CardSlider {
     slideToIndex(index, animate = true) {
         if (this.isAnimating) return;
 
-        // Ensure index is within bounds
-        index = Math.max(0, Math.min(index, this.maxIndex));
-        
-        if (!animate) {
-            this.wrapper.style.transition = 'none';
-        } else {
+        if (animate) {
             this.wrapper.style.transition = 'transform 0.3s ease';
+        } else {
+            this.wrapper.style.transition = 'none';
         }
 
         this.currentIndex = index;
-        this.currentTranslate = -(index * this.cardFullWidth);
+        this.currentTranslate = -(this.currentIndex * this.cardFullWidth);
         this.prevTranslate = this.currentTranslate;
-        
-        this.updateDots();
-        this.setSliderPosition();
 
-        // Handle infinite loop reset
-        if (this.options.loop && animate) {
-            this.isAnimating = true;
-            
-            setTimeout(() => {
-                // Check if we're near the beginning (in cloned cards)
-                if (this.currentIndex <= this.options.cardsToShow - 1) {
-                    // Jump to the corresponding real cards at the end
-                    this.wrapper.style.transition = 'none';
-                    this.currentIndex = this.maxIndex - (this.options.cardsToShow - 1 - this.currentIndex);
-                    this.currentTranslate = -(this.currentIndex * this.cardFullWidth);
-                    this.prevTranslate = this.currentTranslate;
-                    this.setSliderPosition();
-                } 
-                // Check if we're near the end (in cloned cards)
-                else if (this.currentIndex >= this.maxIndex - (this.options.cardsToShow - 1)) {
-                    // Jump to the corresponding real cards at the beginning
-                    this.wrapper.style.transition = 'none';
-                    this.currentIndex = this.currentIndex - (this.maxIndex - (this.options.cardsToShow - 1)) + (this.options.cardsToShow - 1);
-                    this.currentTranslate = -(this.currentIndex * this.cardFullWidth);
-                    this.prevTranslate = this.currentTranslate;
-                    this.setSliderPosition();
-                }
-                
-                setTimeout(() => {
-                    this.isAnimating = false;
-                }, 50);
-            }, 300);
-        }
+        this.setSliderPosition();
+        this.updateDots();
+
+        if (!this.options.loop) return;
+
+        this.isAnimating = true;
+
+        setTimeout(() => {
+
+            // If we moved into cloned slides at the start
+            if (this.currentIndex < this.options.cardsToShow) {
+                this.wrapper.style.transition = 'none';
+
+                this.currentIndex = this.totalRealCards + this.currentIndex;
+                this.currentTranslate = -(this.currentIndex * this.cardFullWidth);
+                this.prevTranslate = this.currentTranslate;
+
+                this.setSliderPosition();
+            }
+
+            // If we moved into cloned slides at the end
+            if (this.currentIndex >= this.totalRealCards + this.options.cardsToShow) {
+                this.wrapper.style.transition = 'none';
+
+                this.currentIndex = this.currentIndex - this.totalRealCards;
+                this.currentTranslate = -(this.currentIndex * this.cardFullWidth);
+                this.prevTranslate = this.currentTranslate;
+
+                this.setSliderPosition();
+            }
+
+            this.isAnimating = false;
+
+        }, 300);
     }
 
     updateDots() {
         if (!this.dots || !this.options.loop) return;
-        
+
         // Calculate real index for dots (excluding clones)
         let realIndex = this.currentIndex - this.options.cardsToShow;
-        
+
         // Handle wrap-around for infinite loop
         if (realIndex < 0) {
             realIndex = this.totalRealCards + realIndex;
         } else if (realIndex >= this.totalRealCards) {
             realIndex = realIndex - this.totalRealCards;
         }
-        
+
         this.dots.forEach((dot, i) => dot.classList.toggle('active', i === realIndex));
     }
 
@@ -393,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (container.id) {
             window.sliders[container.id] = new CardSlider(container.id, {
                 loop: true,           // Enable infinite loop
-                cardsToShow: 1,        // Show 6 cards at once
+                cardsToShow: 6,        // Show 6 cards at once
                 autoSlide: false       // Auto-slide turned OFF
             });
         }
